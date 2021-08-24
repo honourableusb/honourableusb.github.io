@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import {RouterLink} from '';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'website';
+
+
+
+  public gotoHome(): void {
+    console.log("abcdef");
+  }
+
+
 }
